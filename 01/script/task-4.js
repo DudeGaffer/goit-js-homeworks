@@ -12,11 +12,7 @@ if (totalDroid === null) {
   let account = credits - totalPrice;
   if (account >= 0) {
     console.log(
-      'Вы купили ' +
-        totalDroid +
-        ' дроидов, на счету осталось ' +
-        account +
-        ' кредитов',
+      `Вы купили ${totalDroid} дроидов, на счету осталось ${account} кредитов`,
     );
   } else console.log('Недостаточно средств на счету!');
 }
